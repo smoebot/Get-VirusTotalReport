@@ -1,4 +1,4 @@
 # Get-VirusTotalReport
-Powershell function to pull VirusTotal report, using a range of indicators.
+Powershell.  Pull a VirusTotal report about an IOC, using a range of indicator types.
 
 Supports Domains, URLs, Hashes, and IP addresses
