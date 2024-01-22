@@ -18,7 +18,7 @@ This can be a URL, Domain, IPv4 address, MD5 hash, SHA hash, or SHA256 hash
 **Examples**
         
 ```powershell
-Get-VirusTotalReport -Indicator example.com
+Get-VirusTotalReport -Indicator pendantpublishing.com
 ```
 
 ```powershell
