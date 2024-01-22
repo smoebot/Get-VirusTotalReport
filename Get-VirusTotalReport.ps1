@@ -34,6 +34,7 @@ function Get-VirusTotalReport {
     # Use regex to determine the type of Indicator, rather than lots of parameters and if/else to manage the resulting combinations
     switch -Regex ($Indicator){
         '^(http[s]?)\://.*$'{
+        # Regex taken from here: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_switch?view=powershell-7.4
             Write-Host -ForegroundColor Green "Regex matched a URL"
             $ApiUrl = $UrlCheckUrl + $Indicator
             try{(Invoke-RestMethod -Method Get -Uri $ApiUrl -Headers $Header).data.attributes; Break}
