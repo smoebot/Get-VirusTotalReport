@@ -10,6 +10,7 @@ Supports Domains, URLs, Hashes, and IP addresses
 _Indicator_
 
 The indicator that you wish to pass to VirusTotal
+
 This can be a URL, Domain, IPv4 address, MD5 hash, SHA hash, or SHA256 hash
 
 ---
