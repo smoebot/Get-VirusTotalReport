@@ -11,7 +11,7 @@ function Get-VirusTotalReport {
         Author: Joel Ashman
         v0.1 - (2024-01-16) Initial version
     .EXAMPLE
-        Get-VirusTotalReport -Indicator example.com
+        Get-VirusTotalReport -Indicator pendantpublishing.com
     #>
     #requires -version 5
 
